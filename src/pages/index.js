@@ -53,16 +53,75 @@ export default function Home() {
 
           <h2>Open-Deck とは？</h2>
           <p>
-            Open-Deck は、TweetDeckの代替を目指して開発されているツールです。<br></br>
+            Open-Deck は、TweetDeckの代替を目指して開発されているツールです。
+            <br />
             X（旧Twitter）のタイムラインを複数カラムで表示・管理でき、快適な閲覧体験を提供します。
           </p>
           <p>
             Xの公式フロントエンドを直接呼び出す設計とすることで、アカウント凍結のリスクを極限まで抑えています。
           </p>
           <p>
-            Open-Deck はオープンソースで開発されており、発展途上のソフトウェアです。<br></br>
-            ユーザーの方々からのフィードバックを随時、歓迎しております！<br></br>
-            GitHub Issue はもちろん、専用のフォームより匿名で開発者へフィードバックが可能です！
+            Open-Deck
+            はオープンソースで開発されており、発展途上のソフトウェアです。
+            <br />
+            ユーザーの方々からのフィードバックを随時、歓迎しております！
+            <br />
+            GitHub Issues
+            はもちろん、専用のフォームより匿名で開発者へフィードバックが可能です！
+          </p>
+
+          <h2>開発者にフィードバックしますか?</h2>
+          <p>以下の2つの手段で開発者に直接フィードバック可能です!</p>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/kawa-nobu/Open-Deck/issues"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub Issuesでフィードバック
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://forms.gle/yzenSXrs3RXceyPh9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                匿名でフィードバック(専用フォーム)
+              </a>
+            </li>
+          </ul>
+
+          <h2>Discordコミュニティに参加しませんか？</h2>
+          <p>
+            開発者が運営するDiscordコミュニティにはOpen-Deck専用のチャンネルがあり、
+            <br />
+            フィードバックを送ったり、ほかのユーザーや開発者に質問したりできます。
+            <br />
+            <a
+              href="https://discord.gg/edEkagBhDS"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "12px",
+                padding: "12px 20px",
+                backgroundColor: "#5865F2",
+                color: "white",
+                borderRadius: "8px",
+                textDecoration: "none",
+                fontWeight: "bold",
+                fontFamily: "sans-serif",
+              }}
+            >
+              <i
+                className="fa-brands fa-discord"
+                style={{ color: "rgb(255, 255, 255)" }}
+              ></i>
+              &nbsp;Discordサーバーに参加
+            </a>
           </p>
 
           {/* スクリーンショット */}
