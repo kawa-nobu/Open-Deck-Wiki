@@ -1,0 +1,39 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /*Custom*/
+  --opd-primary-color: rgb(29, 155, 240);
+  --opd-secondary-color: rgb(29, 54, 127);
+  /*Docusaurus*/
+  --ifm-color-primary: rgb(29, 155, 240);
+  --ifm-color-primary-dark: rgb(29, 54, 127);
+  --ifm-color-primary-darker: rgb(29, 54, 127);
+  --ifm-color-primary-darkest: rgb(29, 54, 127)b;
+  --ifm-color-primary-light: rgb(29, 155, 240);
+  --ifm-color-primary-lighter: rgb(29, 155, 240);
+  --ifm-color-primary-lightest: rgb(29, 155, 240);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --docsearch-primary-color: var(--opd-primary-color);
+  --docsearch-highlight-color: var(--opd-primary-color);
+  --docsearch-searchbox-background: #20232a;
+  --docsearch-searchbox-focus-background: #000;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: rgb(29, 155, 240);
+  --ifm-color-primary-dark: rgb(29, 54, 127);
+  --ifm-color-primary-darker: rgb(29, 54, 127);
+  --ifm-color-primary-darkest: rgb(29, 54, 127)b;
+  --ifm-color-primary-light: rgb(29, 155, 240);
+  --ifm-color-primary-lighter: rgb(29, 155, 240);
+  --ifm-color-primary-lightest: rgb(29, 155, 240);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

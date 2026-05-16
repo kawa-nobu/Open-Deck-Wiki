@@ -1,0 +1,8 @@
+{
+  "label": "デスクトップ版",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Open-Deck Desktop（デスクトップアプリ版）の独自機能について説明します。複数アカウントの同時表示や他 SNS 対応など、拡張機能版にはない機能を使いたい方向けです。"
+  }
+}

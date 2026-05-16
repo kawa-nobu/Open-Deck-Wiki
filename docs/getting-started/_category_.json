@@ -1,0 +1,8 @@
+{
+  "label": "インストール",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Open-Deck の導入方法です。拡張機能版とデスクトップ版のどちらかを選んでインストールしてみましょう！"
+  }
+}
