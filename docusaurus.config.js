@@ -52,7 +52,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/kawa-nobu/Open-Deck_Wiki/tree/main/",
+          editUrl: "https://github.com/kawa-nobu/Open-Deck-Wiki/tree/main/",
           routeBasePath: "docs",
         },
         blog: false,

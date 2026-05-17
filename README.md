@@ -8,8 +8,8 @@ Open-DeckのWikiリポジトリです。
 リポジトリをクローンします。
 
 ```bash
-git clone https://github.com/kawa-nobu/Open-Deck_Wiki.git
-cd Open-Deck_Wiki
+git clone https://github.com/kawa-nobu/Open-Deck-Wiki.git
+cd Open-Deck-Wiki
 ```
 
 依存パッケージをインストールします。
