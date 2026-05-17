@@ -10,9 +10,9 @@ sidebar_label: 拡張機能の対応
 
 ## なぜ対応が必要なのか
 
-拡張機能版 Open-Deck は、Twitter(X) を `<iframe>` 内に複数読み込むことでカラム表示を実現しています。  
+拡張機能版 Open-Deck は、Twitter(X) を `<iframe>` 内で呼び出すことでカラム表示を実現しています。  
 通常、ブラウザ拡張機能の content script は **トップレベルのフレームのみ** で実行されるため、  
-フレームに対しての動作を設定をしなければ iframe 内の Twitter(X) では他の拡張機能は動作しません。
+iframeに対しての動作を設定しなければ iframe 内の Twitter(X) では他の拡張機能は動作しません。
 
 `all_frames: true` を指定することで、iframe 内でも content script が実行されるようになり、  
 Open-Deck の各カラム内でも拡張機能が利用できるようになります。
