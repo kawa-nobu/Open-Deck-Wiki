@@ -3,6 +3,9 @@
 Open-DeckのWikiリポジトリです。
 本WikiはDocusaurusを用いています。
 
+## 本ドキュメントの閲覧はこちら
+→ [Open-Deck公式ドキュメント](https://kawa-nobu.github.io/Open-Deck-Wiki/)
+
 ## セットアップ
 
 リポジトリをクローンします。
