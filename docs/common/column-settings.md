@@ -57,6 +57,17 @@ Timeline カラムや Explore カラム（検索ページ）で、表示する�
 
 ---
 
+## RT非表示
+
+<img src="/Open-Deck-Wiki/img/screenshot/column_hide_rt_setting.png" width="400" />
+
+タイムラインに流れてくるリポスト(RT)を非表示にできます。
+
+:::note[引用ポストは非表示になりません]
+引用ポストを絞り込みたい場合は、[表示モード](#表示モード)を使ってください。
+:::
+---
+
 ## カラム幅
 
 <img src="/Open-Deck-Wiki/img/screenshot/column_size_settings.png" width="400" />
